@@ -8,6 +8,13 @@ public class Aluno {
         setNota(nota);
     }
 
+    @Override
+    public String toString() {
+    return "Nome: " + getNome() +
+				"\nNota: "+ getNota() +
+				"\n";
+    }
+
     public String getNome() {
         return nome;
     }
